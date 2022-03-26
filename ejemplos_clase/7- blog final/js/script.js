@@ -21,6 +21,16 @@ const primerPost = document.querySelector(".post");
 // Vemos las clases de nuestro primer post
 console.log(primerPost.classList);
 
+// Apuntamos directamente al parrafo (<p>) dentro del primer post
+// querySelector retorna el primer elemento encontrado
+const parrafo = document.querySelector(".post p");
+console.log(parrafo.textContent)
+
+// Apuntamos directamente al parrafo (<p>) dentro del primer post
+// indicando con "[0]" que deseamos leer el primer elemento encontrado
+const parrafo2 = document.querySelectorAll(".post p")[0];
+console.log(parrafo2.textContent)
+
 // Agregamos un listener a nuestro primer post
 primerPost.addEventListener("click", function () {
   console.log("Primer post");

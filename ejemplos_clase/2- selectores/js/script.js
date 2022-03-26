@@ -31,3 +31,13 @@ const tercerPost = document.getElementsByClassName("post")[2];
 
 // Vemos los "Child Nodes" de nuestro tercer post
 console.log(tercerPost.childNodes);
+
+// Apuntamos directamente al parrafo (<p>) dentro del primer post
+// querySelector retorna el primer elemento encontrado
+const parrafo = document.querySelector(".post p");
+console.log(parrafo.textContent)
+
+// Apuntamos directamente al parrafo (<p>) dentro del primer post
+// indicando con "[0]" que deseamos leer el primer elemento encontrado
+const parrafo2 = document.querySelectorAll(".post p")[0];
+console.log(parrafo2.textContent)
