@@ -35,7 +35,7 @@
       22.3px 22.3px 17.9px rgba(0, 0, 0, 0.083),
       41.8px 41.8px 33.4px rgba(0, 0, 0, 0.101),
       100px 100px 80px rgba(0, 0, 0, 0.14);
-    max-width: 40%;
+    max-width: 350px;
     padding: 20px;
   }
   
@@ -79,4 +79,9 @@
     height: 0px;
     transition: all 0.5s ease-out;
   }
-  
+
+  @media only screen and (min-width: 1000px) {
+    .post {
+      max-width: 40%;
+    }
+  }
