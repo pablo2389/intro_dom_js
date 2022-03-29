@@ -19,11 +19,11 @@ console.log(imagen.src)
 
 
 // Podemos modificar un atributo utilizando setAttribute()
-imagen.setAttribute("src", "./images/profile_image.png")
+imagen.setAttribute("src", "./images/avatar_inove.png")
 
 // Podemos tambien modificarlo directamente con la sintaxis
 // "punto"
-imagen.src = "./images/profile_image.png"
+imagen.src = "./images/avatar_inove.png"
 
 /* NOTA */
 /*

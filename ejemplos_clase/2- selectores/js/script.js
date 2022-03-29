@@ -8,6 +8,7 @@
 const tituloPrincipalPorClase = document.querySelector(".main-title");
 
 // Accedemos al texto de nuestro titulo
+console.log("Texto accedido por selector por clase");
 console.log(tituloPrincipalPorClase.textContent);
 
 /* Selector por ID */
@@ -15,6 +16,7 @@ console.log(tituloPrincipalPorClase.textContent);
 const tituloPrincipalPorID = document.querySelector("#title1");
 
 // Accedemos al texto de nuestro titulo
+console.log("Texto accedido por selector por ID");
 console.log(tituloPrincipalPorID.textContent);
 
 // ----------------------------------------------------
@@ -22,6 +24,7 @@ console.log(tituloPrincipalPorID.textContent);
 const primerPost = document.querySelector(".post");
 
 // Vemos las propiedas con las que cuenta
+console.log("Propiedades del elemento primeroPost")
 console.log(primerPost)
 
 /* Child */
