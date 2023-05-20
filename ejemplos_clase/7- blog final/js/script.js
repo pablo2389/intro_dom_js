@@ -15,39 +15,38 @@ tituloPrincipal.textContent = `Publica tu aprendizaje: ${hoy.getDate()}/${
 }/${hoy.getFullYear()}`;
 
 // ----------------------------------------------------
-// Apuntamos a nuestro post y lo guardamos en una constante
-const primerPost = document.querySelector(".post");
+// Apuntamos al primer post y lo guardamos en una constante
+const primerPost = document.querySelector("#post1");
 
-// Vemos las clases de nuestro primer post
+// Vemos las clases del primer post
 console.log(primerPost.classList);
 
 // Apuntamos directamente al parrafo (<p>) dentro del primer post
 // querySelector retorna el primer elemento encontrado
-const parrafo = document.querySelector(".post p");
+const parrafo = document.querySelector("#post1 p");
 console.log(parrafo.textContent)
 
-// Apuntamos directamente al parrafo (<p>) dentro del primer post
-// indicando con "[0]" que deseamos leer el primer elemento encontrado
-const parrafo2 = document.querySelectorAll(".post p")[0];
+// Apuntamos directamente al parrafo (<p>) dentro del segundo post
+const parrafo2 = document.querySelector("#post2 p");
 console.log(parrafo2.textContent)
 
-// Agregamos un listener a nuestro primer post
+// Agregamos un listener al primer post
 primerPost.addEventListener("click", function () {
   console.log("Primer post");
 });
 
 // ----------------------------------------------------
-// Apuntamos a nuestro tercer post y lo guardamos en una constante
-const tercerPost = document.getElementsByClassName("post")[2];
+// Apuntamos al tercer post y lo guardamos en una constante
+const tercerPost = document.querySelector("#post3");
 
-// Vemos los "Child Nodes" de nuestro tercer post
+// Vemos los "Child Nodes" del tercer post
 console.log(tercerPost.childNodes);
 
 // ----------------------------------------------------
-//Apuntamos al header de nuestro post mas visitado
-const postHeader = document.getElementsByClassName("post-header")[2];
+//Apuntamos al header del post mas visitado (post3)
+const postHeader = document.querySelector("#post3 .post-header");
 
-// Generamos un nuevo hijo para nuestro post mas visitado
+// Generamos un nuevo hijo para el post mas visitado
 const masVisitado = document.createElement("span");
 
 //Le damos texto a nuestro "Child Node"
@@ -58,7 +57,7 @@ postHeader.appendChild(masVisitado);
 
 // ----------------------------------------------------
 // Apuntamos al segundo post
-const segundoPost = document.getElementsByClassName("post")[1];
+const segundoPost = document.querySelector("#post2");
 
 // Agregamos un listener
 segundoPost.addEventListener("mouseover", function () {

@@ -3,10 +3,10 @@
 
 /* Evento de mouse click */
 // ----------------------------------------------------
-// Apuntamos a nuestro post y lo guardamos en una constante
-const primerPost = document.querySelector(".post");
+// Apuntamos al primer post y lo guardamos en una constante
+const primerPost = document.querySelector("#post1");
 
-// Agregamos un listener a nuestro primer post
+// Agregamos un listener al primer post
 primerPost.addEventListener("click", function () {
   console.log("Primer post");
 });
@@ -14,7 +14,7 @@ primerPost.addEventListener("click", function () {
 /* Eventos de mouseover y mouseout */
 // ----------------------------------------------------
 // Apuntamos al segundo post
-const segundoPost = document.getElementsByClassName("post")[1];
+const segundoPost = document.querySelector("#post2");
 
 // Agregamos un listener
 segundoPost.addEventListener("mouseover", function () {

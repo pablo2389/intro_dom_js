@@ -2,15 +2,15 @@
 /* Escribir el código aquí */
 
 // ----------------------------------------------------
-//Apuntamos al header de nuestro post mas visitado
-const postHeader = document.getElementsByClassName("post-header")[2];
+// Apuntamos al header del post mas visitado (post3)
+const post3Header = document.querySelector("#post3 .post-header");
 
-// Generamos un nuevo hijo para nuestro post mas visitado
+// Generamos un nuevo hijo para el post mas visitado
 const masVisitado = document.createElement("span");
 
-// Le damos texto a nuestro "Child Node"
+// Le damos texto al "Child Node"
 masVisitado.innerText = "Mas Visitado";
 
-// Agregamos nuestro hijo al header de nuestro post
-postHeader.appendChild(masVisitado);
+// Agregamos el hijo al header del post
+post3Header.appendChild(masVisitado);
 // ----------------------------------------------------

@@ -3,7 +3,7 @@
 
 // ----------------------------------------------------
 // Apuntamos al icon del primer post
-const imagen = document.querySelector(".post img");
+const imagen = document.querySelector("#post1 img");
 
 // Listas los atributos
 console.log(imagen.attributes)
