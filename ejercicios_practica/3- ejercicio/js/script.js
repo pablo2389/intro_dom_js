@@ -8,7 +8,7 @@
 /* Enunciado:
 
 1)
-Obtener todos los botones utilizando su clase o ID
+Obtener cada uno de los botones
 y asignarle el evento de mouse "click"
 
 Cuando un botón es presionado, se debe agregar la clase

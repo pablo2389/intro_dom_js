@@ -13,7 +13,7 @@ luego cambiar el texto de los botones por:
 PEGAR / COPIAR / CORTAR
 
 2)
-Obtener todos los botones utilizando la clase "btn",
-luego a todos los botones agregar la clase "agua"
+Obtener cada uno de los botones,
+luego a cada uno agregar la clase "agua"
 
 */
